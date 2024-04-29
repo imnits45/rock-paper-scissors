@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel = "stylesheet" href ="styles.css"></link>
+    <link rel="icon" type="image/x-icon" href="Images/RPS.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors!</title>
+    <script src="app.js" defer> </script>
+</head>
+<body>
+    <div class = "header container">
+            <h1 class="heading rock">ROCK</h1>
+            <h1 class="heading dash">-</h1>
+            <h1 class="heading paper">PAPER</h1>
+            <h1 class="heading dash">-</h1>
+            <h1 class="heading scissors">SCISSORS</h1>
+    </div>
+    <div class = "pickClass"><p class = "pick">PICK ANY!</p></div>
+    <div class = "options">
+        <button id = "rock"><img class ="choose"src="Images/rock.png" alt = "rock"></button>
+        <button id = "paper"><img class ="choose"src="Images/paper.png" alt = "paper"></button>
+        <button id = "scissors"><img class ="choose"src="Images/scissors.png" alt = "scissors"></button>
+    </div>
+    <div class = "updateScore">
+        <div class = "human"><p class = "playeroption"></p></div>
+        <div class = "victor"><p class = "roundWinner"></p></div>
+        <div class = "robo"><p class = "Devoption"></p></div>
+    </div>
+    <div class="winner"><p class = "win"></p></div>
+    <div class = "score">
+        <div class = your-score><p class = "points">Your score </p><p class = "player counter">0</p></div>
+        <div class = "Dev-score"> <p class = "points">Dev score </p><p class = "Dev counter">0</p></div>
+    </div>
+</body>
+</html>
