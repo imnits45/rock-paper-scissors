@@ -9,7 +9,7 @@ body{
 
 .header{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     
     
 }
@@ -133,7 +133,7 @@ button:active {
     color: red;
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 768px) {
     .header {
       flex-wrap: wrap;
       justify-content: center;
