@@ -53,7 +53,7 @@ function play() {
     if (userChoice === "rock") {
         if (devChoice === "paper") {
             setTimeout(() => {
-                roundWinner.innerText = "Developer wins";
+                roundWinner.innerText = "Developer wins!";
                 roundWinner.style.color = 'red';
             }, 800);
             computerScore++;
@@ -81,7 +81,7 @@ function play() {
             playerCounter.innerText = playerScore;
         } else if (devChoice === "scissors") {
             setTimeout(() => {
-                roundWinner.innerText = "Developer wins";
+                roundWinner.innerText = "Developer wins!";
                 roundWinner.style.color = 'red';
             }, 800);
             computerScore++;
@@ -95,7 +95,7 @@ function play() {
     } else {
         if (devChoice === "rock") {
             setTimeout(() => {
-                roundWinner.innerText = "Developer wins";
+                roundWinner.innerText = "Developer wins!";
                 roundWinner.style.color = 'red';
             }, 800);
             computerScore++;

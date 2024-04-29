@@ -130,3 +130,14 @@ button:active {
 .Dev {
     color: red;
 }
+
+@media (max-width: 767px) {
+    .header.container {
+        flex-direction: column;
+    }
+
+    .options {
+        flex-direction: column;
+        align-items: center;
+    }
+}
