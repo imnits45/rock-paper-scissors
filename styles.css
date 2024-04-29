@@ -3,6 +3,7 @@ body{
     background-color: #cdb4b4c5 ;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     margin: 0;
 }
 
@@ -131,3 +132,16 @@ button:active {
 .Dev {
     color: red;
 }
+
+@media (max-width: 1080px) {
+    .header {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .heading {
+      font-size: 18px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
